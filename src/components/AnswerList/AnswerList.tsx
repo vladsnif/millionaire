@@ -63,7 +63,7 @@ export default function AnswerList() {
 						return clone;
 					});
 				};
-				return <AnswerOption className={additionalClasses[index]} correct={answer.isCorrect} key={answer.answer}
+				return <AnswerOption className={additionalClasses[index]} key={answer.answer}
 					option={alphabet[index]} answer={answer.answer} onClick={ onClick}/>;
 			})}
 		</ul>
