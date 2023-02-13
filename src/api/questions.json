@@ -1,0 +1,248 @@
+[
+  {
+    "amount": 500,
+    "question": "What is the capital of the United States?",
+    "answers": [
+      {
+        "answer": "New York",
+        "isCorrect": false
+      },
+      {
+        "answer": "Washington, D.C.",
+        "isCorrect": true
+      },
+      {
+        "answer": "Los Angeles",
+        "isCorrect": false
+      },
+      {
+        "answer": "Chicago",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 1000,
+    "question": "Which is the largest ocean in the world?",
+    "answers": [
+      {
+        "answer": "Pacific Ocean",
+        "isCorrect": true
+      },
+      {
+        "answer": "Atlantic Ocean",
+        "isCorrect": false
+      },
+      {
+        "answer": "Indian Ocean",
+        "isCorrect": false
+      },
+      {
+        "answer": "Arctic Ocean",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 2000,
+    "question": "What is the name of the famous painting by Leonardo da Vinci?",
+    "answers": [
+      {
+        "answer": "The Last Supper",
+        "isCorrect": false
+      },
+      {
+        "answer": "The Mona Lisa",
+        "isCorrect": true
+      },
+      {
+        "answer": "The Sistine Chapel",
+        "isCorrect": false
+      },
+      {
+        "answer": "The Starry Night",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 5000,
+    "question": "Which two planets in our solar system are referred to as the gas giants?",
+    "answers": [
+      {
+        "answer": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "answer": "Mars",
+        "isCorrect": false
+      },
+      {
+        "answer": "Saturn",
+        "isCorrect": true
+      },
+      {
+        "answer": "Venus",
+        "isCorrect": false
+      },
+      {
+        "answer": "Uranus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 10000,
+    "question": "What is the name of the largest desert in the world?",
+    "answers": [
+      {
+        "answer": "Sahara Desert",
+        "isCorrect": true
+      },
+      {
+        "answer": "Antarctic Desert",
+        "isCorrect": false
+      },
+      {
+        "answer": "Gobi Desert",
+        "isCorrect": false
+      },
+      {
+        "answer": "Kalahari Desert",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 20000,
+    "question": "What is the name of the longest river in the world?",
+    "answers": [
+      {
+        "answer": "Nile",
+        "isCorrect": true
+      },
+      {
+        "answer": "Amazon",
+        "isCorrect": false
+      },
+      {
+        "answer": "Yangtze",
+        "isCorrect": false
+      },
+      {
+        "answer": "Yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 50000,
+    "question": "What is the name of the famous statue located in Rio de Janeiro, Brazil?",
+    "answers": [
+      {
+        "answer": "Christ the Redeemer",
+        "isCorrect": true
+      },
+      {
+        "answer": "The Eiffel Tower",
+        "isCorrect": false
+      },
+      {
+        "answer": "Big Buddha",
+        "isCorrect": false
+      },
+      {
+        "answer": "The Colosseum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 100000,
+    "question": "What is the name of the largest planet in our solar system?",
+    "answers": [
+      {
+        "answer": "Earth",
+        "isCorrect": false
+      },
+      {
+        "answer": "Jupiter",
+        "isCorrect": true
+      },
+      {
+        "answer": "Mars",
+        "isCorrect": false
+      },
+      {
+        "answer": "Venus",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 250000,
+    "question": "What is the name of the capital city of France?",
+    "answers": [
+      {
+        "answer": "Paris",
+        "isCorrect": true
+      },
+      {
+        "answer": "Rome",
+        "isCorrect": false
+      },
+      {
+        "answer": "Berlin",
+        "isCorrect": false
+      },
+      {
+        "answer": "London",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 500000,
+    "question": "What is the name of the famous Shakespeare play that tells the story of star-crossed lovers?",
+    "answers": [
+      {
+        "answer": "Hamlet",
+        "isCorrect": false
+      },
+      {
+        "answer": "Romeo and Juliet",
+        "isCorrect": true
+      },
+      {
+        "answer": "Macbeth",
+        "isCorrect": false
+      },
+      {
+        "answer": "Othello",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "amount": 1000000,
+    "question": "What is the name of the smallest country in the world by land area?",
+    "answers": [
+      {
+        "answer": "Maldives",
+        "isCorrect": false
+      },
+      {
+        "answer": "Monaco",
+        "isCorrect": true
+      },
+      {
+        "answer": "Nauru",
+        "isCorrect": false
+      },
+      {
+        "answer": "San Marino",
+        "isCorrect": false
+      }
+    ]
+  }
+]

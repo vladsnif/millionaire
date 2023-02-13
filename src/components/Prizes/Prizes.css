@@ -1,0 +1,52 @@
+.prizes {
+	flex-direction: column-reverse;
+	margin: 0;
+	justify-content: center;
+	list-style: none;
+	background-color: #FFFFFF;
+	width: 26%;
+	height: 100%;
+	display: flex;
+	gap: 8px;
+	padding: 0;
+}
+
+.prizes .answer-option{
+	pointer-events: none;
+	height: 40px;
+	width: 70%;
+	margin: auto;
+}
+.prizes .answer-option:before, .game .prizes .answer-option:after{
+	height: 20px;
+}
+.btn-prize{
+	background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	top: 16px;
+	right: 16px;
+	position: absolute;
+	z-index: 1000;
+	display: none;
+}
+
+@media screen and (max-width:900px) {
+	.prizes {
+		display: inherit;
+		position: fixed;
+		top: 0;
+		right: -100%;
+		width: 100%;
+		height: 100%;
+		background-color: #F5F5F7;
+		transition: all 0.5s ease-out;
+		z-index: 999;
+	}
+	.prizes.open{
+		right: 0;
+	}
+	.btn-prize{
+		display: block;
+	}
+}

@@ -1,0 +1,34 @@
+.game {
+	display: flex;
+	height: 100%;
+	flex: 1;
+}
+.game .question-answers {
+	padding: 5%;
+	background-color: #F5F5F7;
+	flex: 1;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+ .game .question-answers .question{
+	 flex: 1;
+	 font-weight: 600;
+	 font-size: 32px;
+ }
+
+@media screen and (max-width:900px) {
+	.game .question-answers .question{
+		padding: 0 16px;
+		font-size: 18px;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		text-align: center;
+	}	.game .question-answers {
+		padding: 0;
+	}
+	.answers-form li{
+		width: 100%;
+	}
+}
