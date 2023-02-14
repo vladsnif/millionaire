@@ -155,6 +155,7 @@ li.answer.disabled:before, li.answer.disabled .answer-option:before, li.answer.d
 }
 
 li.answer {
+    height: 72px;
     cursor: pointer;
     min-width: 250px;
     position: relative;

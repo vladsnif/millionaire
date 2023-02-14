@@ -1,7 +1,7 @@
 .game {
 	display: flex;
-	height: 100%;
 	flex: 1;
+	overflow-x: hidden;
 }
 .game .question-answers {
 	padding: 5%;

@@ -1,9 +1,10 @@
+
 .App{
+    flex: 1;
     padding-right: 80px;
     padding-left: 80px;
     display: flex;
     height: 100%;
-    margin: auto;
     flex-direction: row;
     background: linear-gradient(
             to bottom right,
