@@ -10,9 +10,11 @@
 	gap: 8px;
 	padding: 0;
 }
+.prizes .answer{
+	pointer-events: none;
+}
 
 .prizes .answer-option{
-	pointer-events: none;
 	height: 40px;
 	width: 70%;
 	margin: auto;

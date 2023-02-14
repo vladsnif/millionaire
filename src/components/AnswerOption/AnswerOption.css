@@ -5,9 +5,15 @@
     height: 72px;
     background-color: transparent;
     perspective: 90px;
-    cursor: pointer;
 }
-
+li.answer:before {
+    top: 50%;
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #D0D0D8;
+    width: 100%;
+    position: absolute;
+}
 .selected .answer-option:before, .selected .answer-option:after {
     background-color: #FFF3EB;
     border-color: #FF8B37;
@@ -23,6 +29,17 @@
     animation: incorrect 2s ease-in;
     background-color: #FDEEED;
     border-color: #EC6259;
+}
+li.answer.selected::before {
+    border-color: #FF8B37;
+}
+li.answer.selected.incorrect:before {
+    animation: incorrect 2s ease-in;
+    border-color: #EC6259;
+}
+li.answer.selected.correct:before {
+    border-color: #47D867;
+    animation: correct 2s ease-in;
 }
 
 @keyframes correct {
@@ -83,7 +100,7 @@
     border-bottom-left-radius: 6px;
 }
 
-.answer-option .content, .answer-option .prize {
+li.answer .content, .answer .prize {
     z-index: 1;
     position: absolute;
     bottom: 24px;
@@ -92,7 +109,7 @@
     letter-spacing: 0;
 }
 
-.answer-option .prize {
+li.answer .prize {
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
@@ -104,11 +121,11 @@
     align-items: center;
 }
 
-.answer-option .content {
-    padding-left: 12px;
+li.answer .content {
+    padding-left: 50px;
 }
 
-.answer-option .content .variant {
+li.answer .content .variant {
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
@@ -117,24 +134,15 @@
     margin-right: 4px;
 }
 
-.answer-option:hover:before, .answer-option:hover:after, li.answer:hover:before {
+li.answer:hover .answer-option:before, li.answer:hover .answer-option:after, li.answer:hover:before {
     border-color: #FF8B37;
 }
 
-li.answer:before {
-    top: 50%;
-    display: inline-block;
-    content: "";
-    border-top: 1px solid #D0D0D8;
-    width: 100%;
-    position: absolute;
-}
-
-li.answer.disabled .answer-option .prize {
+li.answer.disabled .prize {
     color: #D0D0D8;
 }
 
-li.answer.active .answer-option .prize {
+li.answer.active .prize {
     color: orange;
 }
 
@@ -147,6 +155,7 @@ li.answer.disabled:before, li.answer.disabled .answer-option:before, li.answer.d
 }
 
 li.answer {
+    cursor: pointer;
     min-width: 250px;
     position: relative;
 }
