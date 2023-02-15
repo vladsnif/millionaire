@@ -14,7 +14,7 @@ export default function Prizes() {
 	return <>
 		{open && <button onClick={onClick} className="btn-prize"><Close/></button>}
 		{!open && <button onClick={onClick} className="btn-prize"><Open/></button>}
-		<ul className={`prizes ${open ? 'open' : ''}`}>
+		<ul className={`prizes scroll ${open ? 'open' : ''}`}>
 			{prizes.map((prize) => {
 				return <AnswerOption key={prize} prize={prize} disabled={prize < currentPrize}
 					active={prize === currentPrize}/>;

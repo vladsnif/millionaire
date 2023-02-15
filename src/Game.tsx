@@ -8,8 +8,8 @@ import {GameContext} from './GameContext';
 export default function Game(){
 	let { currentQuestion } = useContext(GameContext) ?? {};
 	return <>{useMemo(function () {
-		return currentQuestion && <div className="game">
-			<div className="question-answers">
+		return currentQuestion && <div className="game scroll">
+			<div className="question-answers scroll">
 				<div className="question">{currentQuestion.question}</div>
 				<AnswerList/>
 			</div>

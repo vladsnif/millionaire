@@ -53,8 +53,8 @@ export default function AnswerList() {
 		}
 	},[additionalClasses, countOfCorrect, level, questions?.length, refresh, selected, setGameState, setLevel, selectedIds]);
 
-	return useMemo(() => <div className="answers">
-		<ul className="answers-form">
+	return useMemo(() => <div className="answers scroll">
+		<ul className="answers-form scroll">
 			{answers?.map((answer, index) => {
 				const onClick = function () {
 					selectedIds.length !== countOfCorrect && setSelected((ans) =>{
